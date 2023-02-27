@@ -11,20 +11,18 @@ int main(){
   cout<<"Enter x:";
   int x;
   cin>>x;
-  int occurence=-1;
+  int occurrence=-1;
  for (int i = v.size(); i >=0 ; i--)
  {
    if (v[i]==x)
    {
-     occurence=i;
+     occurrence=i;
         break;
    }
    
 
  }
  
-  
-  
-  cout<<occurence<<endl;
+  cout<<occurrence<<endl;
   return 0;
 }
